@@ -1,0 +1,43 @@
+/*
+Selector universal (todos) *
+Selector de tipo (div, h1, input, h2, span, p, ....)
+Selector de clase ( .nombreDeClase)
+Slector de identificador ( #id )
+*/
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+* {
+    margin: 0px;
+    font-family: 'Bangers', cursive;
+}
+
+body {
+    background: orange;
+    width: 100%;
+    height: auto;
+}
+#login {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 40%;
+    padding: 20px;
+    min-width: max-content;
+    max-width: 20em;
+}
+#login input,p {
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+    margin: 5px auto;
+}
+input {
+    background: rgba(128, 128, 128, 0.493);
+    border:none;
+}
+.bblue {
+    background-color: turquoise;
+} 

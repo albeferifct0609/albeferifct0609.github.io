@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
     <script>
         function validar(){
             var email = document.getElementById("email").value;
@@ -18,10 +19,15 @@
     </script>
 </head>
 <body>
-    <form action="" method="">
-        <input type="email" name="" id="email">
-        <input type="password" name="" id="micontrasenya">
-        <input type="button" value="Validar" onclick="validar()">
-    </form>
+    <div id="login">
+        <p>Login Form</p>
+        <p>Login to access your dashboard</p>
+        <form action="" method="">     
+        <input type="email" name="" placeholder="e-mail" id="email">
+        <input type="password" name="" placeholder="Contraseña" id="micontrasenya">
+        <input class="bblue" type="button" value="Validar" onclick="validar()">
+        <p>DON'T HAVE AN ACCOUNT? <a href="#">SIGN UP</a></p>
+        </form>
+    </div>
 </body>
 </html>
