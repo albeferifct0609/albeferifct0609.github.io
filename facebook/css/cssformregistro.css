@@ -1,0 +1,71 @@
+
+*{
+    margin: 0px;
+    /* background-color: cornsilk; */
+}
+
+html{
+
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 39%, #ededed 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 39%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 39%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+
+}
+
+input{
+    width:100%;
+}
+
+#divcentroizq{
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+}
+
+#divcentrodcha{
+    width:40%;
+    float:left;
+    margin-right: 5%;
+}
+
+#divfullname{
+    width: 80%;
+
+}
+
+#divtelmail{
+
+    width: 80%;
+}
+
+#divpassword{
+    width: 80%;
+
+
+}
+
+#divfechanaci{
+
+    width: 80%;
+}
+
+#sexo{
+    width: 80%;
+
+}
+
+#info{
+    width: 80%;
+}
+
+#buttoregister{
+    width: 80%;
+
+}
+
+.font25{
+font-size: 0.75em;
+
+}
